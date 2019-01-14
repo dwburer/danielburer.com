@@ -520,7 +520,7 @@ body {
 
 a,
 a:visited {
-  color: #495057;
+  color: #175F9E;
   text-decoration: none; }
 
 .social {
@@ -546,6 +546,25 @@ a:visited {
   line-height: 1;
   margin-bottom: 2rem; }
 
+.l {
+  color: #6c7681; }
+
+.ll {
+  color: #949da5; }
+
+.lll {
+  color: #bdc3c8; }
+
+.nav-fill {
+  background: #495057;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 1s ease;
+  width: 0;
+  z-index: -1; }
+
 nav {
   font-size: 2rem;
   line-height: 1;
@@ -554,6 +573,7 @@ nav {
     color: #495057;
     display: block;
     padding: 1rem;
+    position: relative;
     text-decoration: none; }
     nav a span, nav a:visited span {
       color: white;
@@ -562,18 +582,21 @@ nav {
       font-weight: bolder;
       margin-left: 1rem;
       opacity: 0;
-      transition: all 0.8s cubic-bezier(0, 0.3, 0, 0.99);
-      transform: translateY(1rem);
+      transition: all 0s ease 0s;
+      transform: translateY(0.5rem);
       vertical-align: middle; }
   nav a:hover {
     color: white; }
     nav a:hover span {
       opacity: 1;
-      transform: translateY(0); }
+      transform: translateY(0);
+      transition: all 0.8s cubic-bezier(0, 0.3, 0, 0.99) 0.3s; }
+    nav a:hover .nav-fill {
+      width: 100%; }
   nav a.k {
     border-left: 2px solid #495057; }
-    nav a.k:hover {
-      background-color: #495057; }
+    nav a.k:hover .nav-fill {
+      width: 100%; }
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -641,3 +664,5 @@ nav {
   .project-card__date {
     font-size: 0.75rem; }
 
+
+/*# sourceMappingURL=styles.chunk.css.map*/

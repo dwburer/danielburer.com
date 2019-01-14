@@ -6,8 +6,8 @@ export default () => (
         <Nav />
         <div className="title">Daniel Burer</div>
         <div className="subtitle">
-            <span style={{color: '#444'}}>software engineer </span><span style={{color: '#888'}}>/ designer </span><span
-            style={{color: '#AAA'}}>/ digital creative</span>
+            <span className="l">software engineer </span><span className="ll">/ designer </span><span
+            className="lll">/ digital creative</span>
         </div>
     </Page>
 )

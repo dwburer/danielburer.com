@@ -5,7 +5,10 @@ export default () => (
         <ul>
             <li>
                 <Link href="/index">
-                    <a href="#" className="k">home<span>&gt;</span></a>
+                    <a href="#" className="k">
+                        <div className='nav-fill'></div>
+                        home<span>&gt;</span>
+                    </a>
                 </Link>
             </li>
             {/*<li>*/}
@@ -14,12 +17,18 @@ export default () => (
                 {/*</Link>*/}
             {/*</li>*/}
             <li>
-                <a href="/static/DanielBurer_Resume2019_public.pdf" target="_blank" className="k">résumé<span>&gt;</span></a>
+                <Link href="/about">
+                    <a href="#" className="k">
+                        <div className='nav-fill'></div>
+                        about<span>&gt;</span>
+                    </a>
+                </Link>
             </li>
             <li>
-                <Link href="/about">
-                    <a href="#" className="k">about<span>&gt;</span></a>
-                </Link>
+                <a href="/static/DanielBurer_Resume2019_public.pdf" target="_blank" className="k">
+                    <div className='nav-fill'></div>
+                    résumé<span>&gt;</span>
+                </a>
             </li>
         </ul>
     </nav>

@@ -9,7 +9,7 @@ body {
 
 a,
 a:visited {
-    color: #495057;
+    color: #175F9E;
     text-decoration: none;
 }
 
@@ -42,6 +42,29 @@ a:visited {
     margin-bottom: 2rem;
 }
 
+.l {
+    color: lighten($text-color, 15%);
+}
+
+.ll {
+    color: lighten($text-color, 30%);
+}
+
+.lll {
+    color: lighten($text-color, 45%);
+}
+
+.nav-fill {
+    background: $text-color;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all 1s ease;
+    width: 0;
+    z-index: -1;
+}
+
 nav {
     font-size: 2rem;
     line-height: 1;
@@ -53,6 +76,7 @@ nav {
             color: $text-color;
             display: block;
             padding: 1rem;
+            position: relative;
             text-decoration: none;
 
             span {
@@ -62,8 +86,8 @@ nav {
                 font-weight: bolder;
                 margin-left: 1rem;
                 opacity: 0;
-                transition: all 0.8s cubic-bezier(0, 0.3, 0, 0.99);
-                transform: translateY(1rem);
+                transition: all 0s ease 0s;
+                transform: translateY(0.5rem);
                 vertical-align: middle;
             }
         }
@@ -74,14 +98,19 @@ nav {
             span {
                 opacity: 1;
                 transform: translateY(0);
+                transition: all 0.8s cubic-bezier(0, 0.3, 0, 0.99) 0.3s;
+            }
+
+            .nav-fill {
+                width: 100%;
             }
         }
 
         &.k {
             border-left: 2px solid $text-color;
 
-            &:hover {
-                background-color: $text-color;
+            &:hover .nav-fill {
+                width: 100%;
             }
         }
     }
