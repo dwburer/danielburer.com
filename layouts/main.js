@@ -10,7 +10,7 @@ export default ({ children }) => (
         <Meta />
         <div className="content">
             { children }
-            <Footer />
+            {/*<Footer />*/}
         </div>
     </div>
 );

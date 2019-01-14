@@ -8,11 +8,11 @@ export default () => (
                     <a href="#" className="k">home<span>&gt;</span></a>
                 </Link>
             </li>
-            <li>
-                <Link href="/projects">
-                    <a href="#" className="k">projects<span>&gt;</span></a>
-                </Link>
-            </li>
+            {/*<li>*/}
+                {/*<Link href="/projects">*/}
+                    {/*<a href="#" className="k">projects<span>&gt;</span></a>*/}
+                {/*</Link>*/}
+            {/*</li>*/}
             <li>
                 <a href="/static/DanielBurer_Resume2019_public.pdf" target="_blank" className="k">résumé<span>&gt;</span></a>
             </li>
