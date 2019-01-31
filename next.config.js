@@ -12,6 +12,7 @@ module.exports = withSass({
         }
         // Copy favicon from project root into the export directory
         await copyFile(join(dir, 'favicon.ico'), join(outDir, 'favicon.ico'));
+        await copyFile(join(dir, 'CNAME'), join(outDir, 'CNAME'));
         return defaultPathMap
     }
 });

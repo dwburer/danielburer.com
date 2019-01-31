@@ -4,10 +4,10 @@ export default () => (
     <nav>
         <ul>
             <li>
-                <Link href="/index">
+                <Link href="/">
                     <a href="#" className="k">
                         <div className='nav-fill'></div>
-                        home<span>&gt;</span>
+                        <span className="label">home</span><span className="chevron">&gt;</span>
                     </a>
                 </Link>
             </li>
@@ -20,14 +20,14 @@ export default () => (
                 <Link href="/about">
                     <a href="#" className="k">
                         <div className='nav-fill'></div>
-                        about<span>&gt;</span>
+                        <span className="label">about</span><span className="chevron">&gt;</span>
                     </a>
                 </Link>
             </li>
             <li>
                 <a href="/static/DanielBurer_Resume2019_public.pdf" target="_blank" className="k">
                     <div className='nav-fill'></div>
-                    résumé<span>&gt;</span>
+                    <span className="label">résumé</span><span className="chevron">&gt;</span>
                 </a>
             </li>
         </ul>
