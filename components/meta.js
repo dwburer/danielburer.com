@@ -5,8 +5,9 @@ export default () => (
         <Head>
             <meta httpEquiv="x-ua-compatible" content="ie=edge" />
             <title>Daniel Burer</title>
-            <meta name="description" content="" />
+            <meta name="description" content="Experienced and active software developer. Skilled in software engineering, full-stack web development, and digital design." />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+            <meta name="keywords" content="georgia,atlanta,georgia tech,programmer,morris technology,developer,aws,software engineer" />
             <link rel="manifest" href="/static/site.webmanifest" />
             <link rel="apple-touch-icon" href="/static/icon.png" />
             <link href="https://fonts.googleapis.com/css?family=Sarabun:100,800"
