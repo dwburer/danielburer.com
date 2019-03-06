@@ -1,12 +1,14 @@
 import Particles from 'react-particles-js';
 
 import Meta from '../components/meta'
+import Footer from '../components/footer'
 
-// Order is important here
+// Order is important here. First import reset/boilerplate scss, and then import custom styles.
 import "../scss/normalize.scss"
 import "../scss/main.scss"
 import "../scss/styles.scss"
 
+// TODO: decide if I want to keep the particles at all, and if so, fine tune this config.
 let particleConfig = {
     "particles": {
         "number": {
@@ -118,19 +120,7 @@ export default ({ children }) => (
         <Meta />
         <div className="content">
             { children }
-            <div className='footer'>
-                <div className="social">
-                    <a href="https://www.linkedin.com/in/daniel-burer-452963118">
-                        <i className="fab fa-linkedin-in"></i> LinkedIn
-                    </a>
-                    <a href="https://github.com/dwburer">
-                        <i className="fab fa-github"></i> GitHub
-                    </a>
-                    <a href="mailto:hire@dburer.com">
-                        <i className="fas fa-envelope"></i> Email
-                    </a>
-                </div>
-            </div>
+            <Footer />
         </div>
         <Particles
             className="particle-background"

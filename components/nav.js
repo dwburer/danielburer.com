@@ -11,6 +11,7 @@ export default () => (
                     </a>
                 </Link>
             </li>
+            {/* TODO: Create curated project portfolio. */}
             {/*<li>*/}
                 {/*<Link href="/projects">*/}
                     {/*<a href="#" className="k">projects<span>&gt;</span></a>*/}
@@ -33,5 +34,3 @@ export default () => (
         </ul>
     </nav>
 );
-
-

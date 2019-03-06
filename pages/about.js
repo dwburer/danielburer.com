@@ -22,6 +22,7 @@ class About extends React.Component {
         let contentHeight = document.querySelector('.profile__text').getBoundingClientRect().top;
         let scrollIndicator = document.querySelector('#scrollIndicator');
 
+        // If the profile text is below the bottom 1/4 of the screen
         if (contentHeight < (window.innerHeight * 0.75)) {
             if (!scrollIndicator.classList.contains('no-indicator')) {
                 scrollIndicator.classList.add('no-indicator');
@@ -36,6 +37,7 @@ class About extends React.Component {
     static lazyLoadImages() {
         let profilePhoto = document.querySelector('#profilePhoto');
         let fullResPhoto = new Image();
+
         fullResPhoto.src = profilePhoto.dataset.lazyLoad;
         fullResPhoto.onload = function() {
             profilePhoto.classList.remove('unloaded');

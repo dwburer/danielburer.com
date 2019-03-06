@@ -1,5 +1,9 @@
+import React from "react";
+
 import Page from '../layouts/main'
 import Nav from "../components/nav";
+
+// TODO: Finish project portfolio.
 
 export default () => (
     <Page>

@@ -10,7 +10,8 @@ module.exports = withSass({
         if (dev) {
             return defaultPathMap
         }
-        // Copy favicon from project root into the export directory
+        // Copy static files from project root into the export directory
+        // TODO: include robots.txt, Apple touch icons, etc.
         await copyFile(join(dir, 'favicon.ico'), join(outDir, 'favicon.ico'));
         await copyFile(join(dir, 'CNAME'), join(outDir, 'CNAME'));
         return defaultPathMap
