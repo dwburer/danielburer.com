@@ -11,7 +11,7 @@ See it live [here](https://danielburer.com/).
 
 Currently chasing a perfect Lighthouse audit score for performance, accessibility, best practices, and SEO. Here are the numbers at present:
 
-![static/lighthouse1x.png](static/lighthouse2x.png)
+![static/lighthouse1x.png](static/lighthouse1x.png)
  
 
 
