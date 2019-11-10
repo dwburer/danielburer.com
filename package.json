@@ -10,7 +10,7 @@
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
-    "export": "rm -rf docs && npm run build && next export -o docs"
+    "export": "rm -rf docs && npm run build && next export -o docs && cp .nojekyll docs/.nojekyll"
   },
   "keywords": [],
   "author": "",
