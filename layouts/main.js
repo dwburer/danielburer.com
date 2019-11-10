@@ -122,8 +122,5 @@ export default ({ children }) => (
             { children }
             <Footer />
         </div>
-        <Particles
-            className="particle-background"
-            params={particleConfig} />
     </div>
 );

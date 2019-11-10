@@ -1,5 +1,81 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/about.js"],{
 
+/***/ "./components/footer.js":
+/*!******************************!*\
+  !*** ./components/footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/danny/projects/fun/danielburer.com/components/footer.js";
+
+// Social links
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "footer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "social",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.linkedin.com/in/daniel-burer-452963118",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-linkedin-in",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }), " LinkedIn"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/dwburer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-github",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }), " GitHub"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "mailto:hire@dburer.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-envelope",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), " Email")));
+});
+
+/***/ }),
+
 /***/ "./components/meta.js":
 /*!****************************!*\
   !*** ./components/meta.js ***!
@@ -13,7 +89,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/daniel/workspace/danielburer/components/meta.js";
+var _jsxFileName = "/Users/danny/projects/fun/danielburer.com/components/meta.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -119,7 +195,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/daniel/workspace/danielburer/components/nav.js";
+var _jsxFileName = "/Users/danny/projects/fun/danielburer.com/components/nav.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -180,14 +256,14 @@ var _jsxFileName = "/Users/daniel/workspace/danielburer/components/nav.js";
   }, ">")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -195,34 +271,34 @@ var _jsxFileName = "/Users/daniel/workspace/danielburer/components/nav.js";
     className: "k",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-fill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "label",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }, "about"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "chevron",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }, ">")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -231,28 +307,28 @@ var _jsxFileName = "/Users/daniel/workspace/danielburer/components/nav.js";
     className: "k",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-fill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "label",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }, "r\xE9sum\xE9"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "chevron",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }, ">")))));
@@ -274,19 +350,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-particles-js */ "./node_modules/react-particles-js/lib/particles.js");
 /* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_particles_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_meta__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/meta */ "./components/meta.js");
-/* harmony import */ var _scss_normalize_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../scss/normalize.scss */ "./scss/normalize.scss");
-/* harmony import */ var _scss_normalize_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_normalize_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../scss/main.scss */ "./scss/main.scss");
-/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _scss_styles_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../scss/styles.scss */ "./scss/styles.scss");
-/* harmony import */ var _scss_styles_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_scss_styles_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/daniel/workspace/danielburer/layouts/main.js";
-
-
- // Order is important here
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
+/* harmony import */ var _scss_normalize_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../scss/normalize.scss */ "./scss/normalize.scss");
+/* harmony import */ var _scss_normalize_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_scss_normalize_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../scss/main.scss */ "./scss/main.scss");
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _scss_styles_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../scss/styles.scss */ "./scss/styles.scss");
+/* harmony import */ var _scss_styles_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_scss_styles_scss__WEBPACK_IMPORTED_MODULE_6__);
+var _jsxFileName = "/Users/danny/projects/fun/danielburer.com/layouts/main.js";
 
 
 
+ // Order is important here. First import reset/boilerplate scss, and then import custom styles.
+
+
+
+ // TODO: decide if I want to keep the particles at all, and if so, fine tune this config.
 
 var particleConfig = {
   "particles": {
@@ -398,87 +477,29 @@ var particleConfig = {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 119
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_meta__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 120
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
-    },
-    __self: this
-  }, children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 121
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "social",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 122
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://www.linkedin.com/in/daniel-burer-452963118",
+  }, children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 123
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fab fa-linkedin-in",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 124
-    },
-    __self: this
-  }), " LinkedIn"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://github.com/dwburer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 126
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fab fa-github",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127
-    },
-    __self: this
-  }), " GitHub"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "mailto:hire@dburer.com",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 129
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-envelope",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 130
-    },
-    __self: this
-  }), " Email")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_particles_js__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "particle-background",
-    params: particleConfig,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 135
-    },
-    __self: this
-  }));
+  })));
 });
 
 /***/ }),
@@ -10860,7 +10881,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/nav */ "./components/nav.js");
 /* harmony import */ var _scss_styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../scss/styles.scss */ "./scss/styles.scss");
 /* harmony import */ var _scss_styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/daniel/workspace/danielburer/pages/about.js";
+var _jsxFileName = "/Users/danny/projects/fun/danielburer.com/pages/about.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -10914,34 +10935,34 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_layouts_main__WEBPACK_IMPORTED_MODULE_1__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 47
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 48
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "profile",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 49
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "profile__photo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "profile__photo__wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 51
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -10952,7 +10973,7 @@ function (_React$Component) {
         alt: "Me",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 52
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -10960,80 +10981,80 @@ function (_React$Component) {
         className: "no-indicator",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
         className: "fas fa-angle-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 54
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "profile__text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 56
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 57
         },
         __self: this
-      }, "Hey, I\u2019m Daniel. Right now I'm working as a full-stack developer in Statesboro, Georgia."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      }, "I\u2019m also currently pursing a Master of Science at the ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.gatech.edu/",
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      }, "The Georgia Institute of Technology"), ", specializing in Machine Learning. Outside of work or school, I love working on side projects, producing music, and graphic design."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "Hey, I\u2019m Daniel. Right now I'm working as a full-stack developer in Atlanta, Georgia."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 60
         },
         __self: this
-      }, "Want to talk business, education, or anything else? Feel free to drop me an ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "I\u2019m also currently pursing a Master of Science at the\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.gatech.edu/",
+        target: "_blank",
+        rel: "noopener noreferrer",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        },
+        __self: this
+      }, "The Georgia Institute of Technology"), "\xA0, specializing in Machine Learning. Outside of work or school, I love working on side projects, producing music, and graphic design."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        },
+        __self: this
+      }, "Want to talk business, education, or anything else? Feel free to drop me an\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "mailto:hire@dburer.com",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 67
         },
         __self: this
-      }, "email"), " or connect with me on ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "email"), "\xA0or connect with me on\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.linkedin.com/in/daniel-burer-452963118/",
         target: "_blank",
+        rel: "noopener noreferrer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 69
         },
         __self: this
-      }, "LinkedIn"), " and we'll be in touch."))));
+      }, "LinkedIn"), "\xA0and we'll be in touch."))));
     }
   }], [{
     key: "handleScroll",
     value: function handleScroll() {
       var contentHeight = document.querySelector('.profile__text').getBoundingClientRect().top;
-      var scrollIndicator = document.querySelector('#scrollIndicator');
+      var scrollIndicator = document.querySelector('#scrollIndicator'); // If the profile text is below the bottom 1/4 of the screen
 
       if (contentHeight < window.innerHeight * 0.75) {
         if (!scrollIndicator.classList.contains('no-indicator')) {
           scrollIndicator.classList.add('no-indicator');
         }
-      } else {
-        if (scrollIndicator.classList.contains('no-indicator')) {
-          scrollIndicator.classList.remove('no-indicator');
-        }
+      } else if (scrollIndicator.classList.contains('no-indicator')) {
+        scrollIndicator.classList.remove('no-indicator');
       }
     }
   }, {
@@ -11076,7 +11097,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 7:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -11101,5 +11122,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]));;
+},[[3,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=about.js.map

@@ -708,6 +708,8 @@ nav {
       .profile__text {
         font-size: 1.5rem;
         margin-left: 2rem; } }
+    .profile__text a {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
     .profile__text h2 {
       font-weight: lighter; }
     .profile__text :first-child {
