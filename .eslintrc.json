@@ -21,6 +21,7 @@
         "react"
     ],
     "rules": {
+        "no-restricted-syntax": false,
         "max-len": ["warn", { "code": 120 }],
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
     }

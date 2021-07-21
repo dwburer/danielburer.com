@@ -1,7 +1,7 @@
 {
   "name": "danielburer",
   "version": "1.0.0",
-  "description": "Personal website for Daniel Burer.",
+  "description": "My website!",
   "main": "index.js",
   "directories": {
     "doc": "doc"
@@ -17,8 +17,9 @@
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "lodash": "^4.17.21",
     "next": "^7.0.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.14.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-ga": "^2.5.6",
